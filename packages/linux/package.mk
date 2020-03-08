@@ -15,15 +15,8 @@ PKG_STAMP="$KERNEL_TARGET $KERNEL_MAKE_EXTRACMD"
 PKG_PATCH_DIRS="$LINUX"
 
 case "$LINUX" in
-  amlogic)
-    PKG_VERSION="98d54f81e36ba3bf92172791eba5ca5bd813989b" # 5.6-rc4
-    PKG_SHA256="93d86760f8c2bc694c3a0ac6ceaa78034fe7d4026221d8480cd9696074d59a46"
-    PKG_URL="https://github.com/torvalds/linux/archive/$PKG_VERSION.tar.gz"
-    PKG_SOURCE_NAME="linux-$LINUX-$PKG_VERSION.tar.gz"
-    PKG_PATCH_DIRS="amlogic"
-    ;;
   xdarklight)
-    PKG_VERSION="e753682cfb709ca3367205d168815cd4e9c66975" # Meson 8*
+    PKG_VERSION="a451a2e5e72e3a74a4c9045400f62cd9b3867b17" # Meson 8*
     PKG_SHA256=""
     PKG_URL="https://github.com/xdarklight/linux/archive/$PKG_VERSION.tar.gz"
     PKG_SOURCE_NAME="linux-$LINUX-$PKG_VERSION.tar.gz"
