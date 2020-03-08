@@ -12,6 +12,12 @@ PKG_BUILD_FLAGS="+speed"
 PKG_PATCH_DIRS="$KODI_VENDOR"
 
 case $KODI_VENDOR in
+  amlogic)
+    PKG_VERSION="750633b22ed19a67bc92184fefc5b79a1a1f2a22"
+    PKG_SHA256=""
+    PKG_URL="https://github.com/xbmc/xbmc/archive/$PKG_VERSION.tar.gz"
+    PKG_SOURCE_NAME="kodi-$KODI_VENDOR-$PKG_VERSION.tar.gz"
+    ;;
   raspberrypi)
     PKG_VERSION="newclock5_20200419"
     PKG_SHA256="f50ea08a4f7f4dc2083c8470115063eaeb67c9b8682ecc6bfaf42dafcb69fd5c"
