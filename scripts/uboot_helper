@@ -197,6 +197,12 @@ devices = \
         'config': 'odroid-n2_defconfig'
       },
     },
+    'AMLMX': {
+      'box': {
+        'dtb': '',
+        'config': 'odroid-xu3_defconfig'
+      },
+    },
   },
   'NXP': {
     'iMX6': {

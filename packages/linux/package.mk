@@ -22,6 +22,13 @@ case "$LINUX" in
     PKG_SOURCE_NAME="linux-$LINUX-$PKG_VERSION.tar.gz"
     PKG_PATCH_DIRS="amlogic"
     ;;
+  xdarklight)
+    PKG_VERSION="e753682cfb709ca3367205d168815cd4e9c66975" # Meson 8*
+    PKG_SHA256=""
+    PKG_URL="https://github.com/xdarklight/linux/archive/$PKG_VERSION.tar.gz"
+    PKG_SOURCE_NAME="linux-$LINUX-$PKG_VERSION.tar.gz"
+    PKG_PATCH_DIRS="xdarklight"
+    ;;
   raspberrypi)
     PKG_VERSION="d00cdd80abb2a8c201cae2f6bd80e27eb2f7d347" # 5.4.45
     PKG_SHA256="4c6e5c458dfd07c8557afaedb54ad037f8d35c741f297a1b92ed796c69dec9de"

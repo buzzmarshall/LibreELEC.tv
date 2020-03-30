@@ -1,0 +1,31 @@
+################################################################################
+# setup device defaults
+################################################################################
+
+  # The TARGET_CPU variable controls which processor should be targeted for
+    TARGET_CPU="cortex-a9"
+    TARGET_FPU="neon-fp16"
+    TARGET_FLOAT="hard"
+    TARGET_FEATURES="32bit"
+    KERNEL_TOOLCHAIN="arm-none-linux-gnueabihf"
+
+  # Kernel to use
+    LINUX="xdarklight"
+
+  # Kernel target
+    KERNEL_TARGET="zImage"
+
+  # OpenGL-ES implementation to use
+    OPENGLES="mesa"
+
+  # Graphic drivers to use
+    GRAPHIC_DRIVERS="lima"
+
+  # KODI Player implementation to use
+    KODIPLAYER_DRIVER="$OPENGLES"
+
+  # Mali GPU family
+    MALI_FAMILY="450"
+
+  # Set the addon project
+    ADDON_PROJECT="ARMv7"
