@@ -1,20 +1,20 @@
-From 8b7ec4eae175835a806619b0bba98eb6d7252a13 Mon Sep 17 00:00:00 2001
+From 4e70331aae9a0ae4a03f63dec1837d0a641bda8e Mon Sep 17 00:00:00 2001
 From: Lukas Rusak <lorusak@gmail.com>
 Date: Mon, 24 Sep 2018 13:39:31 -0700
-Subject: [PATCH 10/14] libavcodec: v4l2m2m: implement hwcontext
+Subject: [PATCH 08/11] libavcodec: v4l2m2m: implement hwcontext
 
 ---
  libavcodec/v4l2_buffers.c | 22 ++++++++++++++++++++++
  libavcodec/v4l2_context.h |  2 ++
  libavcodec/v4l2_m2m.h     |  2 ++
- libavcodec/v4l2_m2m_dec.c |  9 +++++++++
- 4 files changed, 35 insertions(+)
+ libavcodec/v4l2_m2m_dec.c | 11 +++++++++++
+ 4 files changed, 37 insertions(+)
 
 diff --git a/libavcodec/v4l2_buffers.c b/libavcodec/v4l2_buffers.c
-index ee19bb5b6f..27820905b2 100644
+index 8162531973..9c5d471c9b 100644
 --- a/libavcodec/v4l2_buffers.c
 +++ b/libavcodec/v4l2_buffers.c
-@@ -456,6 +456,7 @@ int ff_v4l2_buffer_buf_to_avframe(AVFrame *frame, V4L2Buffer *avbuf)
+@@ -435,6 +435,7 @@ static int v4l2_buffer_buf_to_swframe(AVFrame *frame, V4L2Buffer *avbuf)
  
          frame->data[0] = (uint8_t *) v4l2_get_drm_frame(avbuf);
          frame->format = AV_PIX_FMT_DRM_PRIME;
@@ -22,7 +22,7 @@ index ee19bb5b6f..27820905b2 100644
      } else {
          /* 1. get references to the actual data */
          for (i = 0; i < avbuf->num_planes; i++) {
-@@ -555,6 +556,27 @@ int ff_v4l2_buffer_initialize(V4L2Buffer* avbuf, int index)
+@@ -635,6 +636,27 @@ int ff_v4l2_buffer_initialize(V4L2Buffer* avbuf, int index)
      avbuf->buf.type = ctx->type;
      avbuf->buf.index = index;
  
@@ -51,10 +51,10 @@ index ee19bb5b6f..27820905b2 100644
          avbuf->buf.length = VIDEO_MAX_PLANES;
          avbuf->buf.m.planes = avbuf->planes;
 diff --git a/libavcodec/v4l2_context.h b/libavcodec/v4l2_context.h
-index 632f1d0aac..9a1dbbea60 100644
+index 22a9532444..e804e94131 100644
 --- a/libavcodec/v4l2_context.h
 +++ b/libavcodec/v4l2_context.h
-@@ -91,6 +91,8 @@ typedef struct V4L2Context {
+@@ -92,6 +92,8 @@ typedef struct V4L2Context {
       */
      int done;
  
@@ -64,12 +64,12 @@ index 632f1d0aac..9a1dbbea60 100644
  
  /**
 diff --git a/libavcodec/v4l2_m2m.h b/libavcodec/v4l2_m2m.h
-index 043a81a86a..4475618392 100644
+index 4ee0be653b..61cb919771 100644
 --- a/libavcodec/v4l2_m2m.h
 +++ b/libavcodec/v4l2_m2m.h
-@@ -60,6 +60,8 @@ typedef struct V4L2m2mContext {
-     /* Reference to self; only valid while codec is active. */
-     AVBufferRef *self_ref;
+@@ -64,6 +64,8 @@ typedef struct V4L2m2mContext {
+     /* reference back to V4L2m2mPriv */
+     void *priv;
  
 +    AVBufferRef *device_ref;
 +
@@ -77,10 +77,18 @@ index 043a81a86a..4475618392 100644
      int output_drm;
  } V4L2m2mContext;
 diff --git a/libavcodec/v4l2_m2m_dec.c b/libavcodec/v4l2_m2m_dec.c
-index 0087de35d0..fffeb49092 100644
+index 3b2449ae6c..c6b865fde8 100644
 --- a/libavcodec/v4l2_m2m_dec.c
 +++ b/libavcodec/v4l2_m2m_dec.c
-@@ -214,6 +214,15 @@ static av_cold int v4l2_decode_init(AVCodecContext *avctx)
+@@ -35,6 +35,7 @@
+ 
+ #include "libavcodec/hwaccels.h"
+ #include "libavcodec/internal.h"
++#include "libavcodec/hwconfig.h"
+ 
+ #include "v4l2_context.h"
+ #include "v4l2_m2m.h"
+@@ -230,6 +231,16 @@ static av_cold int v4l2_decode_init(AVCodecContext *avctx)
          break;
      }
  
@@ -89,13 +97,14 @@ index 0087de35d0..fffeb49092 100644
 +        ret = AVERROR(ENOMEM);
 +        return ret;
 +    }
++
 +    ret = av_hwdevice_ctx_init(s->device_ref);
 +    if (ret < 0)
 +        return ret;
 +
-     ret = ff_v4l2_m2m_codec_init(avctx);
+     s->avctx = avctx;
+     ret = ff_v4l2_m2m_codec_init(priv);
      if (ret) {
-         V4L2m2mPriv *priv = avctx->priv_data;
 -- 
-2.24.1
+2.17.1
 

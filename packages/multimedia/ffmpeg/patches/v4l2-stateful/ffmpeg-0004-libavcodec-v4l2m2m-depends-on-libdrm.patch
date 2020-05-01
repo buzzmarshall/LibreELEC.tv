@@ -1,7 +1,7 @@
-From 86a709f752d430166b9c1e26fa639886710b79ad Mon Sep 17 00:00:00 2001
+From 5a5546230570b8e4313e655bd2e70194a6fe60cc Mon Sep 17 00:00:00 2001
 From: Lukas Rusak <lorusak@gmail.com>
 Date: Thu, 16 Aug 2018 21:09:40 -0700
-Subject: [PATCH 05/14] libavcodec: v4l2m2m: depends on libdrm
+Subject: [PATCH 04/11] libavcodec: v4l2m2m: depends on libdrm
 
 ---
  configure                 | 1 +
@@ -9,10 +9,10 @@ Subject: [PATCH 05/14] libavcodec: v4l2m2m: depends on libdrm
  2 files changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/configure b/configure
-index 34c2adb4a4..b72f1d6270 100755
+index f97cad0298..3a4fb51399 100755
 --- a/configure
 +++ b/configure
-@@ -3343,6 +3343,7 @@ sndio_indev_deps="sndio"
+@@ -3400,6 +3400,7 @@ sndio_indev_deps="sndio"
  sndio_outdev_deps="sndio"
  v4l2_indev_deps_any="linux_videodev2_h sys_videoio_h"
  v4l2_indev_suggest="libv4l2"
@@ -21,7 +21,7 @@ index 34c2adb4a4..b72f1d6270 100755
  v4l2_outdev_suggest="libv4l2"
  vfwcap_indev_deps="vfw32 vfwcap_defines"
 diff --git a/libavcodec/v4l2_buffers.c b/libavcodec/v4l2_buffers.c
-index 897c3c4636..d6838866b7 100644
+index 4bb2bf6f87..c36a73d1fa 100644
 --- a/libavcodec/v4l2_buffers.c
 +++ b/libavcodec/v4l2_buffers.c
 @@ -21,7 +21,7 @@
@@ -34,5 +34,5 @@ index 897c3c4636..d6838866b7 100644
  #include <sys/ioctl.h>
  #include <sys/mman.h>
 -- 
-2.24.1
+2.17.1
 

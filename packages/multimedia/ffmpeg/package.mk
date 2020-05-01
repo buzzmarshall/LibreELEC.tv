@@ -3,12 +3,12 @@
 # Copyright (C) 2017-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="ffmpeg"
-# Current branch is: release/4.2-kodi
-PKG_VERSION="4.2.2-Matrix-Alpha1"
-PKG_SHA256="0dba571f9809588cfbdc29d6a551dab4cd5736701653d9263847c9ac67bcde86"
+# Current branch is: master
+PKG_VERSION="aef670cff4d8856a99451995aff6d77a2f20403f"
+PKG_SHA256=""
 PKG_LICENSE="LGPLv2.1+"
 PKG_SITE="https://ffmpeg.org"
-PKG_URL="https://github.com/xbmc/FFmpeg/archive/${PKG_VERSION}.tar.gz"
+PKG_URL="https://github.com/FFmpeg/FFmpeg/archive/${PKG_VERSION}.tar.gz"
 PKG_DEPENDS_TARGET="toolchain zlib bzip2 gnutls speex"
 PKG_LONGDESC="FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video."
 PKG_BUILD_FLAGS="-gold"
@@ -35,6 +35,8 @@ if [ "${V4L2_SUPPORT}" = "yes" ]; then
 	                  --disable-hwaccel=mpeg2_v4l2request \
 		          --disable-hwaccel=vp8_v4l2request"
     fi
+  elif [ "${PROJECT}" = "Amlogic" ]; then
+    PKG_PATCH_DIRS+=" v4l2-stateful"
   else
     PKG_PATCH_DIRS+=" v4l2"
   fi
