@@ -1,7 +1,7 @@
 From aa850d87ecd92444698a3937e5d609d9d3d6d3f8 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Mon, 21 Oct 2019 03:58:06 +0000
-Subject: [PATCH 126/152] WIP: arm64: dts: meson: add multiple MeCool device
+Subject: [PATCH 126/155] WIP: arm64: dts: meson: add multiple MeCool device
  trees
 
 This adds initial device trees for a range of MeCool devices based on various

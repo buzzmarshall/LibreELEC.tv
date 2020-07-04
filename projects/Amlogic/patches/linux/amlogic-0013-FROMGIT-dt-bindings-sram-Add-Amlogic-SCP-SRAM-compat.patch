@@ -1,7 +1,7 @@
 From b03284d1862da4875003a0662081eea91ec47f3c Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Thu, 26 Mar 2020 17:46:45 +0100
-Subject: [PATCH 013/152] FROMGIT: dt-bindings: sram: Add Amlogic SCP SRAM
+Subject: [PATCH 013/155] FROMGIT: dt-bindings: sram: Add Amlogic SCP SRAM
  compatibles
 
 Add compatibles for the Amlogic SCP SRAM memory zones.

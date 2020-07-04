@@ -1,7 +1,7 @@
 From af96f988cd28bddedf6538548fae92c3121df2e4 Mon Sep 17 00:00:00 2001
 From: chewitt <christianshewitt@gmail.com>
 Date: Wed, 24 Jun 2020 11:21:22 +0000
-Subject: [PATCH 152/152] WIP: arm64: dts: meson: switch ODROID-C4 to rgmii-id
+Subject: [PATCH 152/155] WIP: arm64: dts: meson: switch ODROID-C4 to rgmii-id
 
 ---
  arch/arm64/boot/dts/amlogic/meson-sm1-odroid-c4.dts | 3 +--

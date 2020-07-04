@@ -1,7 +1,7 @@
 From a09cbc00673c29b8f69573b012573ef0e45adcf0 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Tue, 7 Jan 2020 04:37:57 +0000
-Subject: [PATCH 037/152] FROMGIT: arm64: dts: meson: add ethernet interrupt to
+Subject: [PATCH 037/155] FROMGIT: arm64: dts: meson: add ethernet interrupt to
  wetek dtsi
 
 Add Ethernet interrupt details to the WeTek Hub/Play2 dtsi to resolve

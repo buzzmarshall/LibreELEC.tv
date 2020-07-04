@@ -1,7 +1,7 @@
 From 7a909e686b3697106302dffaf6298ca4a35de447 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 28 Feb 2020 19:08:03 +0000
-Subject: [PATCH 034/152] FROMGIT: dt-bindings: add vendor prefix for Smartlabs
+Subject: [PATCH 034/155] FROMGIT: dt-bindings: add vendor prefix for Smartlabs
  LLC
 
 Smartlabs LLC are a professional integrator of Interactive TV solutions

@@ -1,7 +1,7 @@
 From c2cc8facc6ce7341053855b004d21ea51ea311e6 Mon Sep 17 00:00:00 2001
 From: Dmitry Shmidt <dimitrysh@google.com>
 Date: Wed, 10 Jun 2020 10:46:33 +0000
-Subject: [PATCH 098/152] FROMLIST(v1): clk: meson: g12a: Add support for NNA
+Subject: [PATCH 098/155] FROMLIST(v1): clk: meson: g12a: Add support for NNA
  CLK source clocks
 
 This adds the Neural Network Accelerator source clocks hierarchy, it's

@@ -1,7 +1,7 @@
 From 9132d7f6d3753eceecd18d7e660fcffb12da9ffe Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Tue, 21 Apr 2020 18:39:32 +0200
-Subject: [PATCH 016/152] FROMGIT: arm64: dts: meson: p230-q200: add initial
+Subject: [PATCH 016/155] FROMGIT: arm64: dts: meson: p230-q200: add initial
  audio playback support
 
 Add basic audio support on the p230/q200 reference design.

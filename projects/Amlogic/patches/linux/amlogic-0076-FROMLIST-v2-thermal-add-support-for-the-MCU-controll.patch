@@ -1,7 +1,7 @@
 From 1e9ea85d0249f0cc7cd8fd17f59c6cc75a99a84a Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Wed, 13 May 2020 12:54:59 +0000
-Subject: [PATCH 076/152] FROMLIST(v2): thermal: add support for the MCU
+Subject: [PATCH 076/155] FROMLIST(v2): thermal: add support for the MCU
  controlled FAN on Khadas boards
 
 The new Khadas VIM2 and VIM3 boards controls the cooling fan via the

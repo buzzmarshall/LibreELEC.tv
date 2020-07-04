@@ -1,7 +1,7 @@
 From 4c48fcf5e06f9b09a9813473542c1e596b7b5b09 Mon Sep 17 00:00:00 2001
 From: Hyeonki Hong <hhk7734@gmail.com>
 Date: Wed, 10 Jun 2020 10:44:22 +0000
-Subject: [PATCH 096/152] FROMLIST(v1): pinctrl: meson: fix drive strength
+Subject: [PATCH 096/155] FROMLIST(v1): pinctrl: meson: fix drive strength
  register and bit calculation
 
 If a GPIO bank has greater than 16 pins, PAD_DS_REG is split into two

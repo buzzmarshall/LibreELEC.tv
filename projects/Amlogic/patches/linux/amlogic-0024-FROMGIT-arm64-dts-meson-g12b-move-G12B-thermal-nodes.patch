@@ -1,7 +1,7 @@
 From 7c1c1d86645c337d0f3d32e90abe557bfde9b093 Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Wed, 13 May 2020 06:53:19 +0000
-Subject: [PATCH 024/152] FROMGIT: arm64: dts: meson-g12b: move G12B thermal
+Subject: [PATCH 024/155] FROMGIT: arm64: dts: meson-g12b: move G12B thermal
  nodes to meson-g12b.dtsi
 
 The G12B thermal nodes should be in the meson-g12b.dtsi file.

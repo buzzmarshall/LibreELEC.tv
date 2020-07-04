@@ -1,7 +1,7 @@
 From 1bf06c1222c6de12bc80462b1df332e8d375cf27 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Sun, 1 Mar 2020 05:43:00 +0000
-Subject: [PATCH 042/152] FROMGIT: arm64: dts: meson-g12b-gtking-pro: add
+Subject: [PATCH 042/155] FROMGIT: arm64: dts: meson-g12b-gtking-pro: add
  initial device-tree
 
 The Shenzen AZW (Beelink) GT-King Pro is based on the Amlogic W400

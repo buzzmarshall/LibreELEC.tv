@@ -1,7 +1,7 @@
 From d3ffc291448009eb2790ceb68d3388ee6914f378 Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 09:11:10 +0000
-Subject: [PATCH 058/152] FROMGIT: phy: amlogic: meson8b-usb2: Add a compatible
+Subject: [PATCH 058/155] FROMGIT: phy: amlogic: meson8b-usb2: Add a compatible
  string for Meson8m2
 
 The 3.10 vendor kernel sets the ACA_ENABLE bit on Meson8b, Meson8m2 and

@@ -1,7 +1,7 @@
 From bf9f5f84f61a35dcc8b32b89748cd59d86e3cd80 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 15 May 2020 07:42:07 +0000
-Subject: [PATCH 133/152] WIP: arm64: dts: meson: add audio playback to
+Subject: [PATCH 133/155] WIP: arm64: dts: meson: add audio playback to
  odroid-c4
 
 Add initial audio support limited to HDMI i2s.

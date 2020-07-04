@@ -1,7 +1,7 @@
 From ed1ffd86f27e04cb6a89d5949d97d0f86f9cda68 Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Fri, 24 Jan 2020 11:08:09 +0100
-Subject: [PATCH 081/152] FROMLIST(v1): ASoC: meson: convert axg tdm interface
+Subject: [PATCH 081/155] FROMLIST(v1): ASoC: meson: convert axg tdm interface
  to schema
 
 Convert the DT binding documentation for the Amlogic tdm interface to

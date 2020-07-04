@@ -1,7 +1,7 @@
 From a1294edb0c6f5b917ba8ef4fbe3c05fa07a4e9ed Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Wed, 3 Jun 2020 18:03:22 +0000
-Subject: [PATCH 123/152] WIP: arm64: dts: meson-sm1: add support for CYX
+Subject: [PATCH 123/155] WIP: arm64: dts: meson-sm1: add support for CYX
  A95XF3-AIR
 
 A95XF3-AIR is an Android STB based on the Amlogic S905X3 chipset. The

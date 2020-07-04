@@ -1,7 +1,7 @@
 From 30c345683a949068c7769c67d656f0f8246984c9 Mon Sep 17 00:00:00 2001
 From: Maxime Jourdan <mjourdan@baylibre.com>
 Date: Fri, 5 Jun 2020 07:21:43 +0000
-Subject: [PATCH 090/152] FROMLIST(v1): media: meson: vdec: handle bitdepth on
+Subject: [PATCH 090/155] FROMLIST(v1): media: meson: vdec: handle bitdepth on
  source change
 
 In order to handle Compressed Framebuffer support, we need to handle

@@ -1,7 +1,7 @@
 From a66c639c8a4503663b43f0275b67e79624ae9ddf Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 28 Feb 2020 19:10:01 +0000
-Subject: [PATCH 035/152] FROMGIT: dt-bindings: arm: amlogic: add support for
+Subject: [PATCH 035/155] FROMGIT: dt-bindings: arm: amlogic: add support for
  the Smartlabs SML-5442TW
 
 The SML-5442TW is an STB for O2 Czech IPTV/VOD and DVB-T/T2 based on the

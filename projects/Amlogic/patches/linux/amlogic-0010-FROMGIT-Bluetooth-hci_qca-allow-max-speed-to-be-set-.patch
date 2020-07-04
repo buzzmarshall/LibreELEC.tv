@@ -1,7 +1,7 @@
 From e2d049bb10b4a35ba06259ee89ff366f23fbc69e Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Tue, 21 Apr 2020 01:00:14 +0000
-Subject: [PATCH 010/152] FROMGIT: Bluetooth: hci_qca: allow max-speed to be
+Subject: [PATCH 010/155] FROMGIT: Bluetooth: hci_qca: allow max-speed to be
  set for QCA9377 devices
 
 Move the read of max-speed from device-tree out of the qca_is_wcn399x

@@ -1,7 +1,7 @@
 From 274f0a22be97107589d444a3bbb6bcf53ceec2eb Mon Sep 17 00:00:00 2001
 From: Jernej Skrabec <jernej.skrabec@siol.net>
 Date: Thu, 14 May 2020 11:32:27 +0000
-Subject: [PATCH 020/152] FROMGIT: drm/bridge: dw-hdmi: Add support for RGB
+Subject: [PATCH 020/155] FROMGIT: drm/bridge: dw-hdmi: Add support for RGB
  limited range
 
 CEA 861 standard requestis that RGB quantization range is "limited" for

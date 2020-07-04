@@ -1,7 +1,7 @@
 From 34bcda9f7dec6e7c54e486479e50e1455fe6f7ac Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 09:01:24 +0000
-Subject: [PATCH 050/152] FROMGIT: net: stmmac: dwmac-meson8b: Fetch the
+Subject: [PATCH 050/155] FROMGIT: net: stmmac: dwmac-meson8b: Fetch the
  "timing-adjustment" clock
 
 The PRG_ETHERNET registers have a built-in timing adjustment circuit

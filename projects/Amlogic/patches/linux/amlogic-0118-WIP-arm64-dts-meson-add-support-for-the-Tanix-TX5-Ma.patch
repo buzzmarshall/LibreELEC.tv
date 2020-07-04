@@ -1,7 +1,7 @@
 From 160c011aeafbcec80a1a952dafcdb0d1ea40b3c5 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Sun, 20 Oct 2019 04:06:59 +0000
-Subject: [PATCH 118/152] WIP: arm64: dts: meson: add support for the Tanix TX5
+Subject: [PATCH 118/155] WIP: arm64: dts: meson: add support for the Tanix TX5
  Max
 
 The Tanix TX5 Max is based on the Amlogic U200 reference design

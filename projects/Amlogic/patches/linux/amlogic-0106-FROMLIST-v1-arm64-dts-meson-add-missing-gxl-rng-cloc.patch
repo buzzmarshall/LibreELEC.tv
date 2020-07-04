@@ -1,7 +1,7 @@
 From 486f528652a716c18a7459f8d164de5f50fef26b Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Wed, 17 Jun 2020 14:33:26 +0000
-Subject: [PATCH 106/152] FROMLIST(v1): arm64: dts: meson: add missing gxl rng
+Subject: [PATCH 106/155] FROMLIST(v1): arm64: dts: meson: add missing gxl rng
  clock
 
 The peripheral clock of the RNG is missing for gxl while it is present

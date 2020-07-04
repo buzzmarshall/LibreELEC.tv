@@ -1,7 +1,7 @@
 From 76b9a338e5d1c0be6d21dc51b309fcbdb95b245c Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 29 Jun 2020 15:37:37 +0000
-Subject: [PATCH 109/152] FROMLIST(v1): net: stmmac: dwmac-meson8b: add a
+Subject: [PATCH 109/155] FROMLIST(v1): net: stmmac: dwmac-meson8b: add a
  compatible string for G12A SoCs
 
 Amlogic Meson G12A, G12B and SM1 have the same (at least as far as we

@@ -1,7 +1,7 @@
 From 7b6a71a47fd078c9f6f14da8b08bf27e3bb8deb9 Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Wed, 13 May 2020 12:58:31 +0000
-Subject: [PATCH 078/152] FROMLIST(v2): MAINTAINERS: add myself as maintainer
+Subject: [PATCH 078/155] FROMLIST(v2): MAINTAINERS: add myself as maintainer
  for Khadas MCU drivers
 
 Add the HWMON and NVMEM drivers along the MFD drivers and header

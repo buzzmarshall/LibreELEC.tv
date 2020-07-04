@@ -1,7 +1,7 @@
 From ea81daeb5a1ce9b81d35d9dc617e162de680d07f Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Wed, 3 Jun 2020 08:24:11 +0000
-Subject: [PATCH 094/152] FROMLIST(v2): soc: amlogic: meson-gx-socinfo: Fix
+Subject: [PATCH 094/155] FROMLIST(v2): soc: amlogic: meson-gx-socinfo: Fix
  S905X3 and S905D3 ID's
 
 Correct the SoC revision and package bits/mask values for S905D3/X3 to detect

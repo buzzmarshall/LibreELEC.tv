@@ -1,7 +1,7 @@
 From 79a8f40793bc9369dab486a2a2456cf34da6cd2a Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Sat, 2 May 2020 21:13:37 +0000
-Subject: [PATCH 064/152] FROMLIST(v2): drm/meson: add mode selection limits
+Subject: [PATCH 064/155] FROMLIST(v2): drm/meson: add mode selection limits
  against specific SoC revisions
 
 The Amlogic S805X/Y uses the same die as the S905X, but with more

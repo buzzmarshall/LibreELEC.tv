@@ -1,7 +1,7 @@
 From 32e581e1e20c6bbfc75c99d9a08cda0e32c349d4 Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Fri, 24 Jan 2020 15:40:25 +0100
-Subject: [PATCH 084/152] FROMLIST(v1): ASoC: meson: convert axg fifo to schema
+Subject: [PATCH 084/155] FROMLIST(v1): ASoC: meson: convert axg fifo to schema
 
 Convert the DT binding documentation for the Amlogic axg audio FIFOs to
 schema.

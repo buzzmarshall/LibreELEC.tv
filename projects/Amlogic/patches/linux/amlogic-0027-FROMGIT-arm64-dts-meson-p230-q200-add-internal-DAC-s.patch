@@ -1,7 +1,7 @@
 From 268e19c0f927b6dc83b549f0458b3e2f0d6127f4 Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Wed, 13 May 2020 07:18:27 +0000
-Subject: [PATCH 027/152] FROMGIT: arm64: dts: meson: p230-q200: add internal
+Subject: [PATCH 027/155] FROMGIT: arm64: dts: meson: p230-q200: add internal
  DAC support
 
 Add the necessary bits to support the internal audio DAC the p230/q200

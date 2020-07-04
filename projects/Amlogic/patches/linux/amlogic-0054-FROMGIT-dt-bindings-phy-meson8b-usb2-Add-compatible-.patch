@@ -1,7 +1,7 @@
 From dde5ce6f404c10465b3f91e9ad1ba8e341839df9 Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 09:06:52 +0000
-Subject: [PATCH 054/152] FROMGIT: dt-bindings: phy: meson8b-usb2: Add
+Subject: [PATCH 054/155] FROMGIT: dt-bindings: phy: meson8b-usb2: Add
  compatible string for Meson8m2
 
 The USB2 PHY on Meson8m2 is identical to the one on Meson8b but

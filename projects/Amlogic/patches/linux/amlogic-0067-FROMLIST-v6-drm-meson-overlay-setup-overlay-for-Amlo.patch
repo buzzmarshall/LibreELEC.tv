@@ -1,7 +1,7 @@
 From 7c02cb1631ac73dc407980584f70e816bce2fad6 Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Thu, 14 May 2020 05:26:04 +0000
-Subject: [PATCH 067/152] FROMLIST(v6): drm/meson: overlay: setup overlay for
+Subject: [PATCH 067/155] FROMLIST(v6): drm/meson: overlay: setup overlay for
  Amlogic FBC
 
 Setup the Amlogic FBC decoder for the VD1 video overlay plane.

@@ -1,7 +1,7 @@
 From 6e6362ce945ff5e7b262caa9395be0b1a0351464 Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 09:00:36 +0000
-Subject: [PATCH 049/152] FROMGIT: net: stmmac: dwmac-meson8b: Add the
+Subject: [PATCH 049/155] FROMGIT: net: stmmac: dwmac-meson8b: Add the
  PRG_ETH0_ADJ_* bits
 
 The PRG_ETH0_ADJ_* are used for applying the RGMII RX delay. The public

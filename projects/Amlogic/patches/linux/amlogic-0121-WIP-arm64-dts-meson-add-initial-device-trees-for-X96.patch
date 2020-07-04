@@ -1,7 +1,7 @@
 From 53f573bd57421893f0ee7770c5f59e5b8b0e591a Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Wed, 24 Jun 2020 15:04:10 +0000
-Subject: [PATCH 121/152] WIP: arm64: dts: meson: add initial device-trees for
+Subject: [PATCH 121/155] WIP: arm64: dts: meson: add initial device-trees for
  X96-AIR
 
 Add device-trees for the 2GB/16GB and 4G(32/64GB) variants of the

@@ -1,7 +1,7 @@
 From 9aed6ef7e55f85da21b46def6be06020029f93e9 Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Wed, 13 May 2020 12:56:57 +0000
-Subject: [PATCH 077/152] FROMLIST(v2): nvmem: add support for the Khadas MCU
+Subject: [PATCH 077/155] FROMLIST(v2): nvmem: add support for the Khadas MCU
  Programmable User Memory
 
 The new Khadas VIM2, VIM3 and Edge boards embeds an on-board microcontroller

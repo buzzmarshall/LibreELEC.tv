@@ -1,7 +1,7 @@
 From ae11001b43297957b54d1ffbf05be1b1f616f065 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Tue, 21 Apr 2020 06:21:10 +0000
-Subject: [PATCH 008/152] FROMGIT: dt-bindings: net: bluetooth: Add device tree
+Subject: [PATCH 008/155] FROMGIT: dt-bindings: net: bluetooth: Add device tree
  bindings for QCA9377
 
 QCA9377 is a QCA ROME device frequently found in Android TV boxes.

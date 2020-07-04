@@ -1,7 +1,7 @@
 From 83b54115d89c0668d97c30e843b93de001530d0c Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 08:56:41 +0000
-Subject: [PATCH 045/152] FROMGIT: dt-bindings: net: meson-dwmac: Add the
+Subject: [PATCH 045/155] FROMGIT: dt-bindings: net: meson-dwmac: Add the
  amlogic, rx-delay-ns property
 
 The PRG_ETHERNET registers on Meson8b and newer SoCs can add an RX

@@ -1,7 +1,7 @@
 From b27a9a4a8fe0f94b025ee92307bbffa4d19b8d9b Mon Sep 17 00:00:00 2001
 From: chewitt <christianshewitt@gmail.com>
 Date: Mon, 29 Jun 2020 15:34:00 +0000
-Subject: [PATCH 111/152] REVERT: ASoC: soc-pcm: dpcm: fix playback/capture
+Subject: [PATCH 111/155] REVERT: ASoC: soc-pcm: dpcm: fix playback/capture
  checks
 
 This reverts commit 1bb707fbfd5c246028d76b8f11a19dfd118d6306 which

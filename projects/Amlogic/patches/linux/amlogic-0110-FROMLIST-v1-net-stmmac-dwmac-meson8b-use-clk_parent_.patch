@@ -1,7 +1,7 @@
 From f2a2a00a158fdf93010b6890d590a100871fc9d3 Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Tue, 30 Jun 2020 00:17:01 +0000
-Subject: [PATCH 110/152] FROMLIST(v1): net: stmmac: dwmac-meson8b: use
+Subject: [PATCH 110/155] FROMLIST(v1): net: stmmac: dwmac-meson8b: use
  clk_parent_data for clock registration
 
 Simplify meson8b_init_rgmii_tx_clk() by using struct clk_parent_data to

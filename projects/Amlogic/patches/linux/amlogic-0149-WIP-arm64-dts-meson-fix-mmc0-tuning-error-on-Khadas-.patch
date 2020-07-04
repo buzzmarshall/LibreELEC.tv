@@ -1,7 +1,7 @@
 From 307af22e60a45310a1616b68199e17b2d2559a2b Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Sat, 13 Jun 2020 05:05:36 +0000
-Subject: [PATCH 149/152] WIP: arm64: dts: meson: fix mmc0 tuning error on
+Subject: [PATCH 149/155] WIP: arm64: dts: meson: fix mmc0 tuning error on
  Khadas VIM3
 
 I see reports of mmc0 tuning errors on VIM3 after a few hours uptime:

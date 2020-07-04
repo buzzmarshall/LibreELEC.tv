@@ -1,7 +1,7 @@
 From 24216ea3c8b675dff2cd03be8cc0ce2bbb7661ce Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Mon, 18 May 2020 23:23:40 +0000
-Subject: [PATCH 120/152] WIP: dt-bindings: arm: amlogic: add X96-AIR bindings
+Subject: [PATCH 120/155] WIP: dt-bindings: arm: amlogic: add X96-AIR bindings
 
 Add the board bindings for the Amediatech X96-AIR STB which ships in
 two variants distinguished by RAM size which corresponds to internal

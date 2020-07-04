@@ -1,7 +1,7 @@
 From 7b1c07638f9f75bd8955682c3cb5dd497277314d Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Fri, 24 Jan 2020 15:58:18 +0100
-Subject: [PATCH 086/152] FROMLIST(v1): ASoC: meson: convert axg spdif output
+Subject: [PATCH 086/155] FROMLIST(v1): ASoC: meson: convert axg spdif output
  to schema
 
 Convert the DT binding documentation for the Amlogic axg spdif output to

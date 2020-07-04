@@ -1,7 +1,7 @@
 From d18161d7654d4239775e303a35c3506584bb89e1 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Sat, 29 Feb 2020 15:13:02 +0000
-Subject: [PATCH 117/152] WIP: dt-bindings: arm: amlogic: add support for the
+Subject: [PATCH 117/155] WIP: dt-bindings: arm: amlogic: add support for the
  Tanix TX5 Max
 
 The Oranth (Tanix) TX5 Max is based on the Amlogic U200 reference

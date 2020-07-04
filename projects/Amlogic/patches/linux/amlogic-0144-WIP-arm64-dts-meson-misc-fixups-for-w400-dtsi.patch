@@ -1,7 +1,7 @@
 From 34a38981dfee7423d60f7c7214f6568153cae13d Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Thu, 18 Jun 2020 08:34:03 +0000
-Subject: [PATCH 144/152] WIP: arm64: dts: meson: misc fixups for w400 dtsi
+Subject: [PATCH 144/155] WIP: arm64: dts: meson: misc fixups for w400 dtsi
 
 Current devices using the W400 dtsi show mmc tuning errors:
 

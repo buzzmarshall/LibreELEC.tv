@@ -1,7 +1,7 @@
 From ae95289a092420d7c7baf4518ac2a31a3186c2cf Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Sun, 17 May 2020 05:00:55 +0000
-Subject: [PATCH 138/152] WIP: arm64: dts: meson: add audio playback to u200
+Subject: [PATCH 138/155] WIP: arm64: dts: meson: add audio playback to u200
 
 Add initial support limited to HDMI i2s and SPDIF (LPCM).
 

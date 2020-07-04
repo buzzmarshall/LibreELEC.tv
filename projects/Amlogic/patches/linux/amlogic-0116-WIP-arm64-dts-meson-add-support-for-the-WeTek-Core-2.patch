@@ -1,7 +1,7 @@
 From c4e33d5deee4961893a15ed84f7f0496b0608a4c Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Thu, 14 May 2020 03:57:23 +0000
-Subject: [PATCH 116/152] WIP: arm64: dts: meson: add support for the WeTek
+Subject: [PATCH 116/155] WIP: arm64: dts: meson: add support for the WeTek
  Core 2
 
 The WeTek Core2 is a commercial device based on the Amlogic Q200 reference

@@ -1,7 +1,7 @@
 From 763a8b759e9a394acdae62ecb99d10d202c4062d Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Thu, 5 Mar 2020 04:19:18 +0000
-Subject: [PATCH 009/152] FROMGIT: Bluetooth: hci_qca: add compatible for
+Subject: [PATCH 009/155] FROMGIT: Bluetooth: hci_qca: add compatible for
  QCA9377
 
 Add a compatible so QCA9377 devices can be defined in device-tree.

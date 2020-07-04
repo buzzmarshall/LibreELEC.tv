@@ -1,7 +1,7 @@
 From 9b363f58982cad5066cf071bda8b8b169595e9ce Mon Sep 17 00:00:00 2001
 From: Matthias Kaehlcke <mka@chromium.org>
 Date: Wed, 18 Mar 2020 11:45:46 +0000
-Subject: [PATCH 071/152] FROMLIST(v1): thermal: devfreq_cooling: Use PM QoS to
+Subject: [PATCH 071/155] FROMLIST(v1): thermal: devfreq_cooling: Use PM QoS to
  set frequency limits
 
 Now that devfreq supports limiting the frequency range of a device

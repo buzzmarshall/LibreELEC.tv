@@ -1,7 +1,7 @@
 From bbafff079c99e3c2a6a76865aa669ffd47b34bbe Mon Sep 17 00:00:00 2001
 From: Dmitry Shmidt <dimitrysh@google.com>
 Date: Wed, 10 Jun 2020 10:45:33 +0000
-Subject: [PATCH 097/152] FROMLIST(v1): dt-bindings: clk: g12a-clkc: Add NNA
+Subject: [PATCH 097/155] FROMLIST(v1): dt-bindings: clk: g12a-clkc: Add NNA
  CLK Source clock IDs
 
 This adds the Neural Network Accelerator IP source clocks.

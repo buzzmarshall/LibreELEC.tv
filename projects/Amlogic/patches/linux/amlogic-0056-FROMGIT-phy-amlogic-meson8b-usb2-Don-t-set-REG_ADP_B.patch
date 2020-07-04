@@ -1,7 +1,7 @@
 From 0396c7d56b4c590bf1d2dada6ff4828d504c0ccb Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 09:08:57 +0000
-Subject: [PATCH 056/152] FROMGIT: phy: amlogic: meson8b-usb2: Don't set
+Subject: [PATCH 056/155] FROMGIT: phy: amlogic: meson8b-usb2: Don't set
  REG_ADP_BC_ACA_ENABLE on Meson8
 
 Skip setting REG_ADP_BC_ACA_ENABLE on Meson8 SoCs and polling for the

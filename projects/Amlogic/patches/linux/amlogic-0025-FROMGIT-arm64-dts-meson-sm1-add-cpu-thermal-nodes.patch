@@ -1,7 +1,7 @@
 From c1f1a4675a0b6d121c952eea2edbe9b34081fbe6 Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Wed, 13 May 2020 06:54:09 +0000
-Subject: [PATCH 025/152] FROMGIT: arm64: dts: meson-sm1: add cpu thermal nodes
+Subject: [PATCH 025/155] FROMGIT: arm64: dts: meson-sm1: add cpu thermal nodes
 
 Add thermal nodes for the Amlogic SM1 SoCs based on the G12A and G12B
 thermal nodes.

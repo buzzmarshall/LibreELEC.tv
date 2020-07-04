@@ -1,7 +1,7 @@
 From f607cda7c843afaaeb607a9be6bcd8028b58728c Mon Sep 17 00:00:00 2001
 From: Maxime Jourdan <mjourdan@baylibre.com>
 Date: Fri, 5 Jun 2020 07:20:34 +0000
-Subject: [PATCH 089/152] FROMLIST(v1): media: videodev2: add Compressed
+Subject: [PATCH 089/155] FROMLIST(v1): media: videodev2: add Compressed
  Framebuffer pixel formats
 
 Add two generic Compressed Framebuffer pixel formats to be used

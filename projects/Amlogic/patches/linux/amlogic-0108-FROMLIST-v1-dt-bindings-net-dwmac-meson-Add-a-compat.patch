@@ -1,7 +1,7 @@
 From 1621acb09a49c3ad804a0f555021cee1f82016f1 Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 29 Jun 2020 15:36:46 +0000
-Subject: [PATCH 108/152] FROMLIST(v1): dt-bindings: net: dwmac-meson: Add a
+Subject: [PATCH 108/155] FROMLIST(v1): dt-bindings: net: dwmac-meson: Add a
  compatible string for G12A onwards
 
 Amlogic Meson G12A, G12B and SM1 have the same (at least as far as we

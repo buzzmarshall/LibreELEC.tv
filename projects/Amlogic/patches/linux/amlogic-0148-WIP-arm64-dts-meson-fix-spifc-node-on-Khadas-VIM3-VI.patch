@@ -1,7 +1,7 @@
 From e5359bcdb449e5ad728ab11a4545e48622ba7216 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 12 Jun 2020 11:09:43 +0000
-Subject: [PATCH 148/152] WIP: arm64: dts: meson: fix spifc node on Khadas
+Subject: [PATCH 148/155] WIP: arm64: dts: meson: fix spifc node on Khadas
  VIM3/VIM3L
 
 The VIM3/VIM3L Boards use w25q128 not w25q32.

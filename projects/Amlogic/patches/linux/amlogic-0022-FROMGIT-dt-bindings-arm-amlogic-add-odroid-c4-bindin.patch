@@ -1,7 +1,7 @@
 From e31983aff5f3e77ac4ef9c67df06b0327a941ff9 Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Wed, 13 May 2020 04:02:47 +0000
-Subject: [PATCH 022/152] FROMGIT: dt-bindings: arm: amlogic: add odroid-c4
+Subject: [PATCH 022/155] FROMGIT: dt-bindings: arm: amlogic: add odroid-c4
  bindings
 
 Add the board bindings for the Hardkernel Odroid-C4 single board computer.

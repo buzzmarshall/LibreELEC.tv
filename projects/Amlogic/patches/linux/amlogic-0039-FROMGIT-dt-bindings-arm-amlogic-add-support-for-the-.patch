@@ -1,7 +1,7 @@
 From c3257c27d8ef835466a79695c46f9697b7d5800e Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 11 Oct 2019 09:01:54 +0000
-Subject: [PATCH 039/152] FROMGIT: dt-bindings: arm: amlogic: add support for
+Subject: [PATCH 039/155] FROMGIT: dt-bindings: arm: amlogic: add support for
  the Beelink GT-King
 
 The Shenzen AZW (Beelink) GT-King is based on the Amlogic W400 reference

@@ -1,7 +1,7 @@
 From eb8d1460ad66d62792039c4fe257c57d08ebef7f Mon Sep 17 00:00:00 2001
 From: Maxime Jourdan <mjourdan@baylibre.com>
 Date: Fri, 5 Jun 2020 07:22:46 +0000
-Subject: [PATCH 091/152] FROMLIST(v1): media: meson: vdec: update compressed
+Subject: [PATCH 091/155] FROMLIST(v1): media: meson: vdec: update compressed
  buffer helpers
 
 The actual compressed buffer helpers were very basic and only used

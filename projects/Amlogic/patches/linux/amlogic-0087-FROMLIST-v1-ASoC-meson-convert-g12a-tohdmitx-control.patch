@@ -1,7 +1,7 @@
 From 0ca49b0e3fa2647edc53f0849170e7085f6c755b Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Fri, 24 Jan 2020 16:02:43 +0100
-Subject: [PATCH 087/152] FROMLIST(v1): ASoC: meson: convert g12a tohdmitx
+Subject: [PATCH 087/155] FROMLIST(v1): ASoC: meson: convert g12a tohdmitx
  control to schema
 
 Convert the DT binding documentation for the Amlogic g12a tohdmitx codec

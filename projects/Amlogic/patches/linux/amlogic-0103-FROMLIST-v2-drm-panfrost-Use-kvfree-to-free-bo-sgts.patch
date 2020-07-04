@@ -1,7 +1,7 @@
 From 24b0524ce9d0aaf78aab68d6e18089579983e13a Mon Sep 17 00:00:00 2001
 From: Denis Efremov <efremov@linux.com>
 Date: Sat, 13 Jun 2020 14:18:32 +0000
-Subject: [PATCH 103/152] FROMLIST(v2): drm/panfrost: Use kvfree() to free
+Subject: [PATCH 103/155] FROMLIST(v2): drm/panfrost: Use kvfree() to free
  bo->sgts
 
 Use kvfree() to free bo->sgts, because the memory is allocated with

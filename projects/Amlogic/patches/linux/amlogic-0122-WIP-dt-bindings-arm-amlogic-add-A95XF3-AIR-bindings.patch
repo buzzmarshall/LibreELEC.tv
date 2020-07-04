@@ -1,7 +1,7 @@
 From 1ba6822eecbd4d0df1fe88b713ff52b7effea5fb Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Mon, 29 Jun 2020 15:54:45 +0000
-Subject: [PATCH 122/152] WIP: dt-bindings: arm: amlogic: add A95XF3-AIR
+Subject: [PATCH 122/155] WIP: dt-bindings: arm: amlogic: add A95XF3-AIR
  bindings
 
 Add the board bindings for the CYX A95XF3-AIR STB device.

@@ -1,7 +1,7 @@
 From a572fc90cded0c91f821d521ff73df226e001089 Mon Sep 17 00:00:00 2001
 From: Zheng Bin <zhengbin13@huawei.com>
 Date: Sat, 25 Apr 2020 03:27:24 +0000
-Subject: [PATCH 072/152] FROMLIST(v1): drm/meson: Remove unneeded semicolon
+Subject: [PATCH 072/155] FROMLIST(v1): drm/meson: Remove unneeded semicolon
 
 Fixes coccicheck warning:
 

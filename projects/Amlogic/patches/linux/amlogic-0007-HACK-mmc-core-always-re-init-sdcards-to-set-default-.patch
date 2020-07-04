@@ -1,7 +1,7 @@
 From 14f9943b4aef5e3ef444c0cc131ebaaef2b1c3d3 Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Thu, 16 Apr 2020 08:31:55 +0000
-Subject: [PATCH 007/152] HACK: mmc: core: always re-init sdcards to set
+Subject: [PATCH 007/155] HACK: mmc: core: always re-init sdcards to set
  default 3.3v regulator ios
 
 sd-uhs-** in device-tree changes the voltage to 1.8v, so we need to ensure

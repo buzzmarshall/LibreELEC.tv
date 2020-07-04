@@ -1,7 +1,7 @@
 From a2278fbac0d217cb4d3ffa332d50d292f2b1c449 Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 08:58:55 +0000
-Subject: [PATCH 047/152] FROMGIT: net: stmmac: dwmac-meson8b: use FIELD_PREP
+Subject: [PATCH 047/155] FROMGIT: net: stmmac: dwmac-meson8b: use FIELD_PREP
  instead of open-coding it
 
 Use FIELD_PREP() to shift a value to the correct offset based on a

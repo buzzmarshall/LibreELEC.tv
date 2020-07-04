@@ -1,7 +1,7 @@
 From 67d20391c1642ff88deb07493f25b920610e7698 Mon Sep 17 00:00:00 2001
 From: Alexander Stein <alexander.stein@mailbox.org>
 Date: Wed, 10 Jun 2020 10:43:03 +0000
-Subject: [PATCH 095/152] FROMLIST(v1): spi: dt-bindings: amlogic,
+Subject: [PATCH 095/155] FROMLIST(v1): spi: dt-bindings: amlogic,
  meson-gx-spicc: Fix schema for meson-g12a
 
 This fixes the following warning during dtbs_check:

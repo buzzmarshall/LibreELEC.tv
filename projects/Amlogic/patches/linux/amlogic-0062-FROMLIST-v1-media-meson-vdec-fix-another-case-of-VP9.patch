@@ -1,7 +1,7 @@
 From 72c952cf507307726829c28521cf3f477a473ebd Mon Sep 17 00:00:00 2001
 From: Maxime Jourdan <mjourdan@baylibre.com>
 Date: Sat, 2 May 2020 21:16:37 +0000
-Subject: [PATCH 062/152] FROMLIST(v1): media: meson: vdec: fix another case of
+Subject: [PATCH 062/155] FROMLIST(v1): media: meson: vdec: fix another case of
  VP9 buffer shortage
 
 - Redo the logic where VP9 gets fresh CAPTURE buffers. The previous code

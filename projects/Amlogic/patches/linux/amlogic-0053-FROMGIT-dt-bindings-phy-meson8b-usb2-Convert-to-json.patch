@@ -1,7 +1,7 @@
 From 72fb59a5719f18b2268b4f9c1071817415079088 Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 09:06:05 +0000
-Subject: [PATCH 053/152] FROMGIT: dt-bindings: phy: meson8b-usb2: Convert to
+Subject: [PATCH 053/155] FROMGIT: dt-bindings: phy: meson8b-usb2: Convert to
  json-schema
 
 Now that we have the DT validation in place, let's convert the device

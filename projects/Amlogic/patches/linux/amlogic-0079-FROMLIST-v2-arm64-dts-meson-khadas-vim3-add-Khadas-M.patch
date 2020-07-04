@@ -1,7 +1,7 @@
 From 984625d91bcbfefb3fb7d6532d8bc2114f9be1ae Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Wed, 13 May 2020 12:59:20 +0000
-Subject: [PATCH 079/152] FROMLIST(v2): arm64: dts: meson-khadas-vim3: add
+Subject: [PATCH 079/155] FROMLIST(v2): arm64: dts: meson-khadas-vim3: add
  Khadas MCU nodes
 
 Add the Khadas MCU node with active FAN thermal nodes for all the

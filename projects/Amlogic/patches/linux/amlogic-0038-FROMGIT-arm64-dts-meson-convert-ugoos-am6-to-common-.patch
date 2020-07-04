@@ -1,7 +1,7 @@
 From ce220c323922e69c562f82a727fd6a3d03a18258 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 17 Apr 2020 03:59:13 +0000
-Subject: [PATCH 038/152] FROMGIT: arm64: dts: meson: convert ugoos-am6 to
+Subject: [PATCH 038/155] FROMGIT: arm64: dts: meson: convert ugoos-am6 to
  common w400 dtsi
 
 Convert the Ugoos AM6 dts into meson-g12b-w400.dtsi, and then create

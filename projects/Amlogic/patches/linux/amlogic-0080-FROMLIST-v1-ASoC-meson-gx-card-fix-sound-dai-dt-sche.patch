@@ -1,7 +1,7 @@
 From f6370d91aab5db6289f2f878686619f063fdbcc2 Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Mon, 24 Feb 2020 14:35:17 +0100
-Subject: [PATCH 080/152] FROMLIST(v1): ASoC: meson: gx-card: fix sound-dai dt
+Subject: [PATCH 080/155] FROMLIST(v1): ASoC: meson: gx-card: fix sound-dai dt
  schema
 
 There is a fair amount of warnings when running 'make dtbs_check' with

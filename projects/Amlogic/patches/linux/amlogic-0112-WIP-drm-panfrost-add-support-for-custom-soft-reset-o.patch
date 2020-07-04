@@ -1,7 +1,7 @@
 From 071baffd9ff5f3d043eb52d3f18578acfb56b660 Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Fri, 13 Mar 2020 09:44:50 +0000
-Subject: [PATCH 112/152] WIP: drm/panfrost: add support for custom soft-reset
+Subject: [PATCH 112/155] WIP: drm/panfrost: add support for custom soft-reset
  on Amlogic G12
 
 Signed-off-by: Neil Armstrong <narmstrong@baylibre.com>

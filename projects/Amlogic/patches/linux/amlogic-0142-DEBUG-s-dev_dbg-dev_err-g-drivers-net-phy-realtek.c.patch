@@ -1,7 +1,7 @@
 From a1a1e953f7b7a103f5445e107d9ec649c81b62b2 Mon Sep 17 00:00:00 2001
 From: chewitt <christianshewitt@gmail.com>
 Date: Mon, 1 Jun 2020 08:16:58 +0000
-Subject: [PATCH 142/152] DEBUG: s/dev_dbg/dev_err/g drivers/net/phy/realtek.c
+Subject: [PATCH 142/155] DEBUG: s/dev_dbg/dev_err/g drivers/net/phy/realtek.c
 
 ---
  drivers/net/phy/realtek.c | 8 ++++----

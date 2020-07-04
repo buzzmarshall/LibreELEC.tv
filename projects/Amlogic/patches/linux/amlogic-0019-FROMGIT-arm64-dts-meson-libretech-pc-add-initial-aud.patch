@@ -1,7 +1,7 @@
 From 45baf9b9d199f17bf4e5eb3ad0da6968e30bde9e Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Tue, 21 Apr 2020 18:39:35 +0200
-Subject: [PATCH 019/152] FROMGIT: arm64: dts: meson: libretech-pc: add initial
+Subject: [PATCH 019/155] FROMGIT: arm64: dts: meson: libretech-pc: add initial
  audio playback support
 
 Add initial audio support limited to HDMI i2s.

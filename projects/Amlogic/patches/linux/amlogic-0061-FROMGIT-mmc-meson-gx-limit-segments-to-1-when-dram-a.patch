@@ -1,7 +1,7 @@
 From 4a444578a62a65e4ac503903586e3dd2f96c277e Mon Sep 17 00:00:00 2001
 From: chewitt <christianshewitt@gmail.com>
 Date: Tue, 24 Dec 2019 05:50:45 +0000
-Subject: [PATCH 061/152] FROMGIT: mmc: meson-gx: limit segments to 1 when
+Subject: [PATCH 061/155] FROMGIT: mmc: meson-gx: limit segments to 1 when
  dram-access-quirk is needed
 
 The actual max_segs computation leads to failure while using the broadcom

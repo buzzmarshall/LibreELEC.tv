@@ -1,7 +1,7 @@
 From ac95514d0458ea95693ab88361743ea7caf82269 Mon Sep 17 00:00:00 2001
 From: Jonas Karlman <jonas@kwiboo.se>
 Date: Wed, 13 May 2020 03:09:58 +0000
-Subject: [PATCH 063/152] FROMLIST(v2): drm/bridge: dw-hdmi: do not force
+Subject: [PATCH 063/155] FROMLIST(v2): drm/bridge: dw-hdmi: do not force
  "none" scan mode
 
 Setting scan mode to "none" confuses some TVs like LG B8, which randomly

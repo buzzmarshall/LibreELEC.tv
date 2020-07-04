@@ -1,7 +1,7 @@
 From 723f6b236a512866e90dc29875b3052b5bd81095 Mon Sep 17 00:00:00 2001
 From: Maxime Jourdan <mjourdan@baylibre.com>
 Date: Fri, 5 Jun 2020 07:24:01 +0000
-Subject: [PATCH 092/152] FROMLIST(v1): media: meson: vdec: add support for
+Subject: [PATCH 092/155] FROMLIST(v1): media: meson: vdec: add support for
  compressed output for VP9 decoder
 
 Add the necessary changes to decode VP9 8bit and 10bit streams into

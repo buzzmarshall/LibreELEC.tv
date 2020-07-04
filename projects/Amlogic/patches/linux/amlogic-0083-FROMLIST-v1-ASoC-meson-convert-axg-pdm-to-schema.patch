@@ -1,7 +1,7 @@
 From 988af9a7e3d3d5c5db9bc9bf8c7a1d840d8e7cad Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Fri, 24 Jan 2020 12:13:40 +0100
-Subject: [PATCH 083/152] FROMLIST(v1): ASoC: meson: convert axg pdm to schema
+Subject: [PATCH 083/155] FROMLIST(v1): ASoC: meson: convert axg pdm to schema
 
 Convert the DT binding documentation for the Amlogic axg PDM device to
 schema.

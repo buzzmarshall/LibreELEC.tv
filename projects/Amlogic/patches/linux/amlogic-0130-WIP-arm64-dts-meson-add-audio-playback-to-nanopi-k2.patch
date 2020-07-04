@@ -1,7 +1,7 @@
 From 8de99a1ff435c2f7cfdcdb9eedd8eb98b9810001 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 15 May 2020 07:14:50 +0000
-Subject: [PATCH 130/152] WIP: arm64: dts: meson: add audio playback to
+Subject: [PATCH 130/155] WIP: arm64: dts: meson: add audio playback to
  nanopi-k2
 
 Add initial audio support limited to HDMI i2s.

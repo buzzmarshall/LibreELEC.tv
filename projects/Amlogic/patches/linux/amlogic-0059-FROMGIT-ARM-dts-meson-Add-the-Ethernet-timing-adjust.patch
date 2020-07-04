@@ -1,7 +1,7 @@
 From 33fd227a0f99d3b068e18fb5338a2e748ca7600c Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 09:17:35 +0000
-Subject: [PATCH 059/152] FROMGIT: ARM: dts: meson: Add the Ethernet
+Subject: [PATCH 059/155] FROMGIT: ARM: dts: meson: Add the Ethernet
  "timing-adjustment" clock
 
 Add the "timing-adjusment" clock now that we now that this is connected

@@ -1,7 +1,7 @@
 From cd4532a161555ae66ec62cc274b988f9c356f496 Mon Sep 17 00:00:00 2001
 From: Maxime Jourdan <mjourdan@baylibre.com>
 Date: Sat, 2 May 2020 21:15:13 +0000
-Subject: [PATCH 044/152] FROMGIT: media: meson: vdec: enable mcrcc for VP9
+Subject: [PATCH 044/155] FROMGIT: media: meson: vdec: enable mcrcc for VP9
 
 The motion compensation reference cache controller allows caching
 parts of reference frames for faster decoding.

@@ -1,7 +1,7 @@
 From 6fde0633ecbb79675898bcb518b5150b61f10d72 Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Thu, 14 May 2020 05:29:36 +0000
-Subject: [PATCH 070/152] FROMLIST(v6): drm/meson: crtc: handle commit of
+Subject: [PATCH 070/155] FROMLIST(v6): drm/meson: crtc: handle commit of
  Amlogic FBC frames
 
 Since the VD1 Amlogic FBC decoder is now configured by the overlay driver,

@@ -1,7 +1,7 @@
 From 6aade93a6dccc6d345495cd1f3b9457c3bc8c0a4 Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 08:57:48 +0000
-Subject: [PATCH 046/152] FROMGIT: dt-bindings: net: dwmac-meson: Document the
+Subject: [PATCH 046/155] FROMGIT: dt-bindings: net: dwmac-meson: Document the
  "timing-adjustment" clock
 
 The PRG_ETHERNET registers can add an RX delay in RGMII mode. This

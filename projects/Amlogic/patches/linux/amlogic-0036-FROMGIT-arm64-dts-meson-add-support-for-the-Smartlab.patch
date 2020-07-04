@@ -1,7 +1,7 @@
 From 90ae363f4e28aa8ebb8eadd8edf21854080bd3f5 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 28 Feb 2020 19:16:35 +0000
-Subject: [PATCH 036/152] FROMGIT: arm64: dts: meson: add support for the
+Subject: [PATCH 036/155] FROMGIT: arm64: dts: meson: add support for the
  Smartlabs SML-5442TW
 
 The Smartlabs SML-5442TW is based on the Amlogic P231 reference design

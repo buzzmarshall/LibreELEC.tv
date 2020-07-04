@@ -1,7 +1,7 @@
 From 547852a05722df1440c08405cf0bf39d607708cd Mon Sep 17 00:00:00 2001
 From: Dinghao Liu <dinghao.liu@zju.edu.cn>
 Date: Sat, 13 Jun 2020 14:37:29 +0000
-Subject: [PATCH 100/152] FROMLIST(v2): drm/panfrost: Fix runtime PM imbalance
+Subject: [PATCH 100/155] FROMLIST(v2): drm/panfrost: Fix runtime PM imbalance
  on error
 
 The caller expects panfrost_job_hw_submit() to increase

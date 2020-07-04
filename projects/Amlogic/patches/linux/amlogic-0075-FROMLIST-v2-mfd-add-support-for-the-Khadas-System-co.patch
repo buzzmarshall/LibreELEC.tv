@@ -1,7 +1,7 @@
 From e96c9fe545682054b949641d4451853baa83f8f2 Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Wed, 13 May 2020 12:53:44 +0000
-Subject: [PATCH 075/152] FROMLIST(v2): mfd: add support for the Khadas System
+Subject: [PATCH 075/155] FROMLIST(v2): mfd: add support for the Khadas System
  control Microcontroller
 
 This Microcontroller is present on the Khadas VIM1, VIM2, VIM3 and Edge

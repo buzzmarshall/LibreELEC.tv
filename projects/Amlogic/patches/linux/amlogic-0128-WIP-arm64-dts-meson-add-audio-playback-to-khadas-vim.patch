@@ -1,7 +1,7 @@
 From e80201cdbc30d8952cd5c817dede7314a1ed2f21 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 15 May 2020 06:53:49 +0000
-Subject: [PATCH 128/152] WIP: arm64: dts: meson: add audio playback to
+Subject: [PATCH 128/155] WIP: arm64: dts: meson: add audio playback to
  khadas-vim2
 
 Add initial audio support limited to HDMI i2s.

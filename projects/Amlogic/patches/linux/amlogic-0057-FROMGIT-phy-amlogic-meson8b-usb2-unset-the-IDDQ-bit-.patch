@@ -1,7 +1,7 @@
 From 8fc4830bbf8c5038559b9e25ffab217dbee9d592 Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 09:10:00 +0000
-Subject: [PATCH 057/152] FROMGIT: phy: amlogic: meson8b-usb2: unset the IDDQ
+Subject: [PATCH 057/155] FROMGIT: phy: amlogic: meson8b-usb2: unset the IDDQ
  bit during PHY power-on
 
 The vendor driver unsets the set_iddig bit during power-on as well and

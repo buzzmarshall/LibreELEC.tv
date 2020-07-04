@@ -1,7 +1,7 @@
 From b484e5526ce651b357a8d06bc0d97cd8d33ad6f9 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 15 May 2020 07:23:05 +0000
-Subject: [PATCH 131/152] WIP: arm64: dts: meson: add audio playback to
+Subject: [PATCH 131/155] WIP: arm64: dts: meson: add audio playback to
  nexbox-a1
 
 Add initial support is limited to HDMI i2s and SPDIF (LPCM).

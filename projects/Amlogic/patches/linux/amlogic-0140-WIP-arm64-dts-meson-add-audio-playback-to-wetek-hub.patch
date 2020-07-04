@@ -1,7 +1,7 @@
 From 89db53d79b2c97fbdef558f837af0624fa5d8b36 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Sat, 16 May 2020 07:10:31 +0000
-Subject: [PATCH 140/152] WIP: arm64: dts: meson: add audio playback to
+Subject: [PATCH 140/155] WIP: arm64: dts: meson: add audio playback to
  wetek-hub
 
 Add initial audio support limited to HDMI i2s.

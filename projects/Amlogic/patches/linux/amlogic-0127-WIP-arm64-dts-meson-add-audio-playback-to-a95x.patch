@@ -1,7 +1,7 @@
 From d23981da4da858615e9fa7b3494b1a752142080b Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 15 May 2020 07:11:26 +0000
-Subject: [PATCH 127/152] WIP: arm64: dts: meson: add audio playback to a95x
+Subject: [PATCH 127/155] WIP: arm64: dts: meson: add audio playback to a95x
 
 Add initial audio support limited to HDMI i2s.
 

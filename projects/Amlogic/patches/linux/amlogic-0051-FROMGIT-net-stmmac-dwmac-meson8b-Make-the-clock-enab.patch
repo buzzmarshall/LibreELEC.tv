@@ -1,7 +1,7 @@
 From 51838b40f55661f08fe154abb1e15d08bded2321 Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 09:02:19 +0000
-Subject: [PATCH 051/152] FROMGIT: net: stmmac: dwmac-meson8b: Make the clock
+Subject: [PATCH 051/155] FROMGIT: net: stmmac: dwmac-meson8b: Make the clock
  enabling code re-usable
 
 The timing adjustment clock will need similar logic as the RGMII clock:

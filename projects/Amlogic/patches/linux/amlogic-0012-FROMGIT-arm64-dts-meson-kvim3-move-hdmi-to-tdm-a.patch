@@ -1,7 +1,7 @@
 From 68b4683a553a622e585715061327b82939b0792b Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Tue, 21 Apr 2020 16:18:14 +0200
-Subject: [PATCH 012/152] FROMGIT: arm64: dts: meson: kvim3: move hdmi to tdm a
+Subject: [PATCH 012/155] FROMGIT: arm64: dts: meson: kvim3: move hdmi to tdm a
 
 The tdmout b is physically routed to the 40 pin header and the tdmout c
 is routed to the m2 connector. It makes these interfaces poor

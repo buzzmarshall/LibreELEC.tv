@@ -1,7 +1,7 @@
 From 2363089bf15941d47b47ff3836ceceb673a9cba0 Mon Sep 17 00:00:00 2001
 From: chewitt <christianshewitt@gmail.com>
 Date: Tue, 2 Jun 2020 19:20:27 +0000
-Subject: [PATCH 143/152] DEBUG: print PRG_ETH0/PRG_ETH1 values at init
+Subject: [PATCH 143/155] DEBUG: print PRG_ETH0/PRG_ETH1 values at init
 
 ---
  drivers/net/ethernet/stmicro/stmmac/dwmac-meson8b.c | 3 +++

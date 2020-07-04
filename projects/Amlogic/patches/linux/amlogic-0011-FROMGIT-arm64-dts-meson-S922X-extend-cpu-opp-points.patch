@@ -1,7 +1,7 @@
 From 8444d8f5d9133e1061b62fc15962522b8190b11a Mon Sep 17 00:00:00 2001
 From: Tim Lewis <elatllat@gmail.com>
 Date: Sun, 26 Apr 2020 12:21:19 -0400
-Subject: [PATCH 011/152] FROMGIT: arm64: dts: meson: S922X: extend cpu
+Subject: [PATCH 011/155] FROMGIT: arm64: dts: meson: S922X: extend cpu
  opp-points
 
 Add extra cpu pop points to allow mild overclock on S922X. The opp

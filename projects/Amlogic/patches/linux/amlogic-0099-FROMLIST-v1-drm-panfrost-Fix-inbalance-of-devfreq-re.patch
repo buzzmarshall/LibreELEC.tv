@@ -1,7 +1,7 @@
 From 9c77da7eb1a3c460bf26072c5e2d97c12e39719d Mon Sep 17 00:00:00 2001
 From: Steven Price <steven.price@arm.com>
 Date: Sat, 13 Jun 2020 14:33:31 +0000
-Subject: [PATCH 099/152] FROMLIST(v1): drm/panfrost: Fix inbalance of devfreq
+Subject: [PATCH 099/155] FROMLIST(v1): drm/panfrost: Fix inbalance of devfreq
  record_busy/idle()
 
 The calls to panfrost_devfreq_record_busy() and

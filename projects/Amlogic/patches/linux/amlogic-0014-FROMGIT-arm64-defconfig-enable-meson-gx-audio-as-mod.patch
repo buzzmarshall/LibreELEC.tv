@@ -1,7 +1,7 @@
 From aadd713ceaf3b515f04a4e8e03251b3fa11b5848 Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Tue, 21 Apr 2020 18:39:30 +0200
-Subject: [PATCH 014/152] FROMGIT: arm64: defconfig: enable meson gx audio as
+Subject: [PATCH 014/155] FROMGIT: arm64: defconfig: enable meson gx audio as
  module
 
 Enable the module config for the Amlogic GX audio card.

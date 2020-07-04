@@ -1,7 +1,7 @@
 From 0135880181c83d37aed169c8eb57cf181d4a0af2 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Sat, 13 Jun 2020 05:34:20 +0000
-Subject: [PATCH 150/152] WIP: arm64: dts: meson: switch VIM3/VIM3L to rgmii-id
+Subject: [PATCH 150/155] WIP: arm64: dts: meson: switch VIM3/VIM3L to rgmii-id
 
 Signed-off-by: Christian Hewitt <christianshewitt@gmail.com>
 ---

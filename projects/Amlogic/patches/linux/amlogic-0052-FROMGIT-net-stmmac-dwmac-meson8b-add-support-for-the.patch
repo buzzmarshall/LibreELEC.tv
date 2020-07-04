@@ -1,7 +1,7 @@
 From b47c43c29c9b052e541b94afcbf1925c87d1a3a6 Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 09:03:26 +0000
-Subject: [PATCH 052/152] FROMGIT: net: stmmac: dwmac-meson8b: add support for
+Subject: [PATCH 052/155] FROMGIT: net: stmmac: dwmac-meson8b: add support for
  the RX delay configuration
 
 Configure the PRG_ETH0_ADJ_* bits to enable or disable the RX delay

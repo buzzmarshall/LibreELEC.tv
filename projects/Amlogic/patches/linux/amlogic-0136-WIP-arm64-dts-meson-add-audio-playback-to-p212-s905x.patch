@@ -1,7 +1,7 @@
 From f9f2cedc0f58cc9b33391fc409859383e4857033 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 15 May 2020 08:02:54 +0000
-Subject: [PATCH 136/152] WIP: arm64: dts: meson: add audio playback to
+Subject: [PATCH 136/155] WIP: arm64: dts: meson: add audio playback to
  p212-s905x dtsi
 
 Add initial audio support limited to HDMI i2s.

@@ -1,7 +1,7 @@
 From 001bb8ce0e299728623715eb823b972a6307a2b4 Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Fri, 24 Jan 2020 12:00:01 +0100
-Subject: [PATCH 082/152] FROMLIST(v1): ASoC: meson: convert axg tdm formatters
+Subject: [PATCH 082/155] FROMLIST(v1): ASoC: meson: convert axg tdm formatters
  to schema
 
 Convert the DT binding documentation for the Amlogic tdm formatters to

@@ -1,7 +1,7 @@
 From fc4b8fed5cc950d9ef07a4b4894a9d60a7393510 Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Wed, 13 May 2020 07:21:28 +0000
-Subject: [PATCH 030/152] FROMGIT: arm64: dts: meson: libretech-pc: add
+Subject: [PATCH 030/155] FROMGIT: arm64: dts: meson: libretech-pc: add
  internal DAC support
 
 Add the internal DAC support on the libretech CC. The output of this

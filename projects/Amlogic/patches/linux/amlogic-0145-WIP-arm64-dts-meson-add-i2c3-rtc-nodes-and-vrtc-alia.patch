@@ -1,7 +1,7 @@
 From af0c5ff3abd500258735a986d711180add79958c Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 19 Jun 2020 10:56:46 +0000
-Subject: [PATCH 145/152] WIP: arm64: dts: meson: add i2c3/rtc nodes and vrtc
+Subject: [PATCH 145/155] WIP: arm64: dts: meson: add i2c3/rtc nodes and vrtc
  alias to W400 dtsi
 
 The schematics for all devices currently based on the W400 dtsi show

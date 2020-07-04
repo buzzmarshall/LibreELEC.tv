@@ -1,7 +1,7 @@
 From e53ab2f38542e37c4173e0956e5234bf5a519c0b Mon Sep 17 00:00:00 2001
 From: Tomeu Vizoso <tomeu.vizoso@collabora.com>
 Date: Thu, 12 Mar 2020 15:50:13 +0000
-Subject: [PATCH 104/152] FROMLIST(v1): panfrost: Add compatible string for
+Subject: [PATCH 104/155] FROMLIST(v1): panfrost: Add compatible string for
  bifrost
 
 Mesa now supports some Bifrost devices, so enable it.

@@ -1,7 +1,7 @@
 From b12fd7ac6e20cf68cb6a023ffb2ab14c1c904f52 Mon Sep 17 00:00:00 2001
 From: Krzysztof Kozlowski <krzk@kernel.org>
 Date: Sat, 13 Jun 2020 14:39:51 +0000
-Subject: [PATCH 102/152] FROMLIST(v3): drm/panfrost: Reduce the amount of logs
+Subject: [PATCH 102/155] FROMLIST(v3): drm/panfrost: Reduce the amount of logs
  on deferred probe
 
 There is no point to print deferred probe (and its failures to get

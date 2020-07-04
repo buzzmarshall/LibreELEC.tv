@@ -1,7 +1,7 @@
 From a39d70b1c98e01dd265b91d79067a65dfc5dbf7a Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 19 Jun 2020 11:30:55 +0000
-Subject: [PATCH 146/152] WIP: arm64: dts: meson: add i2c3/rtc nodes and vrtc
+Subject: [PATCH 146/155] WIP: arm64: dts: meson: add i2c3/rtc nodes and vrtc
  alias to ODROID-N2
 
 Add the i2c3 and rtc nodes to the ODROID-N2 device-tree. Also assign

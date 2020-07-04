@@ -1,7 +1,7 @@
 From d26d256820295d3be624ef05b407dad787794a85 Mon Sep 17 00:00:00 2001
 From: Neil Armstrong <narmstrong@baylibre.com>
 Date: Wed, 13 May 2020 12:52:30 +0000
-Subject: [PATCH 074/152] FROMLIST(v2): dt-bindings: mfd: add Khadas
+Subject: [PATCH 074/155] FROMLIST(v2): dt-bindings: mfd: add Khadas
  Microcontroller bindings
 
 This Microcontroller is present on the Khadas VIM1, VIM2, VIM3 and Edge

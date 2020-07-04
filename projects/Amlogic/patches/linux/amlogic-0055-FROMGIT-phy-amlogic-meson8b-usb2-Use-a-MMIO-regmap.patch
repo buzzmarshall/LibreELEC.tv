@@ -1,7 +1,7 @@
 From d099c11d730117bad1feff51663c53c8449cf39e Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 09:07:48 +0000
-Subject: [PATCH 055/152] FROMGIT: phy: amlogic: meson8b-usb2: Use a MMIO
+Subject: [PATCH 055/155] FROMGIT: phy: amlogic: meson8b-usb2: Use a MMIO
  regmap
 
 Using a MMIO regmap and switch to regmap_update_bits() to simplify the

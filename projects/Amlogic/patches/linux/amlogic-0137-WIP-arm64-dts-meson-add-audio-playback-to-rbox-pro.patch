@@ -1,7 +1,7 @@
 From 86c606b636574be3d8b0590a027e135e0e7f66c9 Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Fri, 15 May 2020 08:13:00 +0000
-Subject: [PATCH 137/152] WIP: arm64: dts: meson: add audio playback to
+Subject: [PATCH 137/155] WIP: arm64: dts: meson: add audio playback to
  rbox-pro
 
 Add initial support limited to HDMI i2s and SPDIF (LPCM).

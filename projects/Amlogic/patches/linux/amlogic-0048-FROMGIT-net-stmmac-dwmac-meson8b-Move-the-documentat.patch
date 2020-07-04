@@ -1,7 +1,7 @@
 From e3c7eb63ec72c9bf036cdcd32f976a4eaa0c173b Mon Sep 17 00:00:00 2001
 From: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 Date: Mon, 1 Jun 2020 08:59:38 +0000
-Subject: [PATCH 048/152] FROMGIT: net: stmmac: dwmac-meson8b: Move the
+Subject: [PATCH 048/155] FROMGIT: net: stmmac: dwmac-meson8b: Move the
  documentation for the TX delay
 
 Move the documentation for the TX delay above the PRG_ETH0_TXDLY_MASK

@@ -1,7 +1,7 @@
 From a84a68a971f295a0a7abfc262d95c58e2de55aeb Mon Sep 17 00:00:00 2001
 From: Christian Hewitt <christianshewitt@gmail.com>
 Date: Sat, 16 May 2020 07:15:54 +0000
-Subject: [PATCH 141/152] WIP: arm64: dts: meson: add audio playback to
+Subject: [PATCH 141/155] WIP: arm64: dts: meson: add audio playback to
  wetek-play2
 
 Add initial support limited to HDMI i2s and SPDIF (LPCM).

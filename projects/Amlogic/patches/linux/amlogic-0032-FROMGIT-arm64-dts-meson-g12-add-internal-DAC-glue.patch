@@ -1,7 +1,7 @@
 From fd12e659a2fbebe5c6bd7c9ff64de7bbb59964b7 Mon Sep 17 00:00:00 2001
 From: Jerome Brunet <jbrunet@baylibre.com>
 Date: Wed, 13 May 2020 07:23:20 +0000
-Subject: [PATCH 032/152] FROMGIT: arm64: dts: meson: g12: add internal DAC
+Subject: [PATCH 032/155] FROMGIT: arm64: dts: meson: g12: add internal DAC
  glue
 
 Add the internal DAC glue support on the g12 and sm1 family
